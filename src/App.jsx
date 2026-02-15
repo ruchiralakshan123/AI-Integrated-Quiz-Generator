@@ -1,15 +1,7 @@
-import './index.css'
-import Home from './Home.jsx'
-import Header from './Header.jsx'
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-
-  return (
-    <>
-      <Header />
-      <Home />
-    </>
-  )
+  return <AppRoutes />;
 }
 
-export default App
+export default App;
